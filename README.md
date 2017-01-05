@@ -7,10 +7,10 @@ TP d'initiation à la pratique de GIT
 
         git clone https://github.com/noordo4xx/ISN_TP_GIT_Initiation.git
 
-* Indiquez le dépôt officiel :
+* Définissez une étiquette (depot-officiel) pour désigner le dépôt officiel :
 
         cd ISN_TP_GIT_Initiation
-        git remote add official https://github.com/noordo/ISN_TP_GIT_Initiation.git
+        git remote add depot-officiel https://github.com/noordo/ISN_TP_GIT_Initiation.git
 
 * Vérifiez la liste des dépôts distants référencés :
 
@@ -35,13 +35,13 @@ TP d'initiation à la pratique de GIT
         git add README.md
         git commit
 
-* Intégrez automatiquement la première branche à nouvelle branche (devNoordo4xx4yy) d'intégration des développements des 2 membres du groupe.
+* Intégrez la première branche à nouvelle branche (devGroupe) d'intégration des développements des 2 membres du groupe.
 
         git checkout master
-        git checkout -b devNoordo4xx4yy
+        git checkout -b devGroupe
         git merge devNoordo4xx
         
-* Essayez d'intégrer la seconde branche à devNoordo4xx4yy :
+* Essayez d'intégrer la seconde branche à devGroupe :
 
         git merge devNoordo4yy
 
@@ -52,13 +52,13 @@ TP d'initiation à la pratique de GIT
 
 * Une fois que le conflit est réglé par une révision, publiez l'ensemble des révisions dans votre espace public :
 
-        git push origin devNoordo4xx4yy
+        git push origin devGroupe
 
 * Dans GitHub faites une demande d'intégration (*pull request*).
 
-* Supposons maitenant que la maintenance de la branche officielle ne soit plus assurée et que vous décidiez de prendre la relève. Récupérez la dernière version officielle :
+* Supposons maintenant que la maintenance de la branche officielle ne soit plus assurée et que vous décidiez de prendre la relève. Récupérez la dernière version officielle :
  
-        git pull official master
+        git pull depot-officiel master
 
 * Récupérez la demande d'intégration d'un de vos collègues (noordo4zz) :
 
