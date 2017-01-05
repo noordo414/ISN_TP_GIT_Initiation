@@ -12,6 +12,10 @@ TP d'initiation à la pratique de GIT
         cd ISN_TP_GIT_Initiation
         git remote add official https://github.com/noordo/ISN_TP_GIT_Initiation.git
 
+* Vérifiez la liste des dépôts distants référencés :
+
+        git remote -v
+
 * Sur votre disque dur, ajoutez à la fin de ce fichier les initiales et l'identifiant GitHub de **l'un** des 2 membres du groupe (par exemple noordo4xx). La ligne doit commencer par une étoile. Corrigez la liste pour que la dernière ligne se termine par un point et les autres par des virgules.
 * Faites une révision (ajout à une nouvelle branche de développement : devNoordo4xx) :
 
