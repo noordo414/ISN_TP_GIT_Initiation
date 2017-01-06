@@ -1,5 +1,7 @@
 # ISN_TP_GIT_Initiation
-TP d'initiation à la pratique de GIT
+=======================
+
+## TP d'initiation à la pratique de GIT
 
 * Vous vous êtes mis par groupe de deux et vous avez chacun créé un compte sur GitHub (nous désignerons par noordo4xx et noordo4yy vos identifiants respectifs dans ce qui suit).
 * Dupliquez (*fork*) le projet ISN_TP_GIT_Initiation dans votre espace public.
@@ -66,7 +68,17 @@ TP d'initiation à la pratique de GIT
 
 * Réglez le conflit. Mettez à jour votre branche maître. Publiez.
 
-Liste des élèves de TS ayant réussi ce TP
------------------------------------------
+## Des liens intéressants
+-------------------------
+
+* [La documentation officielle de Git (en anglais)](https://git-scm.com/book/en/v2) et [sa version traduite en français](https://git-scm.com/book/fr/v2).
+* [Un simulateur pour comprendre les commandes principales de Git](https://onlywei.github.io/explain-git-with-d3/).
+* [Un résumé interactif des commandes.](http://ndpsoftware.com/git-cheatsheet.html#loc=workspace)
+* [Tutoriel sur Git de w3ii.com](http://www.w3ii.com/en-US/git/git_quick_guide.html) et [sa traduction](http://www.w3ii.com/fr/git/git_quick_guide.html).
+* [Tutoriel sur Git sous Dokuwiki.](http://anne.pacalet.fr/Notes/doku.php?id=notes:0106_git)
+* [L'aide de GitHub.](https://help.github.com/)
+
+## Liste des élèves de TS ayant réussi ce TP
+--------------------------------------------
 
 * GM alias noordo400.
